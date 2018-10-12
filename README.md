@@ -1,31 +1,33 @@
-#This is simple Automatic image scrapper using python and selenium.
-#installation 
+<h2>This is simple Automatic image scrapper using python and selenium.</h2>
+<h1>Usage</h1>
 
+1. First you must install Selenium. Opening your bash/terminal client, run:
+```
 pip install selenium
+```
+2. Download image from [ChromeDriver](http://chromedriver.chromium.org/) | [Firefox Geckodriver](https://github.com/mozilla/geckodriver/releases).
 
-(1) chrome-image-downlaoder download image from chrome browser.
 
-dependency needed:
+<h3>Google Chrome</h3>
 
-download chrome-web-driver and put in same folder with image.py.
+1. Download ChromeDriver and put in same folder with image.py.
 
-Run as :
-
+2. Run
+```python
 python image.py <image-search> <no of image>
+```
+
+  Example
   
-in my case ( i have used)
+  > `python image.py educational 15`
 
-  python image.py educational 15
+<h3>Firefox</h3>
 
-(2) mozila-image-downloader download image from mozila browser.
+1. Download GeckoDriver and put in same folder with image-downloader.py.
 
-dependency needed:
-
-download geckodriver and put in same folder with image-downloader.py.
-
-Run as :
-
+2. Run
+```python
 python image-downloader.py educational 5
-
+```
 
 
